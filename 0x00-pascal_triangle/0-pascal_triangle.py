@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 '''
-  Generate Pascal's Triangle up to a given `n`.  
+    Generate Pascal's Triangle up to a given `n`.
 '''
 
 
 def pascal_triangle(n):
     '''
-       Generate Pascal's Triangle up to a given `n`. 
+        Generate Pascal's Triangle up to a given `n`.
     '''
     if n <= 0:
         return ([])
